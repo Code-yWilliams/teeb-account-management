@@ -45,6 +45,9 @@ dist/                   ← build output — GIT-IGNORED, never commit
 - **`content-vs-design`** — decide whether a change is words (`content.json`) or
   design (`src/`).
 - **`design-guardrails`** — protect the design system before any visual change.
+- **`deploy`** — publish your changes to the live site (commit + push; live in
+  ~1 min). Just say "deploy".
+- **`update`** — pull Cody's latest version of the site. Say "Cody said to update".
 
 ## Build & preview
 
