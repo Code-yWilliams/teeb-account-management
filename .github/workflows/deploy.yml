@@ -7,9 +7,10 @@ name: Deploy site
 # The custom domain comes from site.domain in content/content.json — the build
 # writes dist/CNAME. Confirm it once under Settings → Pages → Custom domain.
 #
-# ONE-TIME: Settings → Pages → "Build and deployment" → Source: "GitHub Actions".
-# Until that's set, the build job passes but the deploy job has nowhere to
-# publish (that's expected on the very first run).
+# Pages is enabled automatically by the configure-pages step below
+# (enablement: true), so no manual "Settings → Pages" click is needed to publish
+# to the default github.io URL. To use the custom domain, confirm it once under
+# Settings → Pages → Custom domain (the build already writes a matching CNAME).
 
 on:
   push:
@@ -36,6 +37,8 @@ jobs:
       - name: Build
         run: node scripts/build.js
       - uses: actions/configure-pages@v5
+        with:
+          enablement: true
       - uses: actions/upload-pages-artifact@v3
         with:
           path: ./dist
