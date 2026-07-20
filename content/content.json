@@ -1,0 +1,250 @@
+{
+  "site": {
+    "domain": "csm.christinasookhoo.com",
+    "lang": "en",
+    "title": "Christina Sookhoo, Customer Success Manager · Account Manager",
+    "description": "Customer success and account management professional with 8+ years owning client relationships, retention, and growth across 20+ national brands. Los Angeles, CA.",
+    "faviconInitials": "cs",
+    "clarityId": "x0hoon8r2y"
+  },
+  "nav": {
+    "location": "Los Angeles, CA",
+    "availability": "Open to new roles",
+    "links": [
+      { "label": "About", "href": "#about" },
+      { "label": "What I do", "href": "#what" },
+      { "label": "Experience", "href": "#experience" },
+      { "label": "Projects", "href": "#projects" },
+      { "label": "Contact", "href": "#contact" }
+    ]
+  },
+  "profile": {
+    "photo": "assets/images/christina.png",
+    "name": "Christina Sookhoo",
+    "title": "Customer Success · Account Management",
+    "stats": [
+      { "n": "$15M+", "l": "Book of business" },
+      { "n": "20+", "l": "Accounts supported" },
+      { "n": "8+", "l": "Years client-facing" },
+      { "n": "60+", "l": "Locations supported" }
+    ]
+  },
+  "hero": {
+    "location": "Los Angeles, CA",
+    "availability": "Open to new roles",
+    "headline": "I understand what clients need to succeed,",
+    "headlineEmphasis": "and I make sure they stay and grow.",
+    "tag": "Eight years owning client relationships end to end, retaining revenue, and turning 20+ national brand accounts into partnerships that grow.",
+    "pills": {
+      "primary": ["Customer success", "Account management"],
+      "secondary": ["Retention & growth"],
+      "neutral": ["HubSpot", "Tableau", "Smartsheet", "Asana"]
+    },
+    "ctas": [
+      { "label": "What I do ↓", "href": "#what" },
+      { "label": "See projects ↓", "href": "#projects" }
+    ]
+  },
+  "about": {
+    "eyebrow": "About",
+    "title": "I turn clients into long-term partners.",
+    "paragraphs": [
+      "I've spent eight years owning client relationships at the intersection of strategy and operational discipline, serving as the trusted point of contact, keeping accounts healthy, and building the systems that make complex work run smoothly. I do my best work in structured, collaborative environments where clear communication and follow-through earn trust. I'm known for being autonomous, organized, and deeply committed to the clients and teams I support.",
+      "My background spans a $15M+ book of business across 20+ national brands in restaurants, wellness, retail, and more. Earlier in my career I supported franchisees across 60+ locations, so I understand both sides of every client relationship. I anticipate needs, make sense of ambiguous situations, and keep priorities on track even when things get complicated."
+    ],
+    "note": "Outside of work, I'm creative and wellness-oriented. I paint, crochet, and explore new crafts, which keeps me curious, detail-focused, and brings steady energy to everything I do.",
+    "quote": "Colleagues have called me the velvet hammer, approachable and supportive, but firm about deadlines, quality, and follow-through."
+  },
+  "statsBand": [
+    { "metric": "$2M", "label": "Client revenue retained" },
+    { "metric": "15+", "label": "Concurrent accounts managed" },
+    { "metric": "2x", "label": "Account revenue growth, year over year" },
+    { "metric": "6+", "label": "Internal teams coordinated" }
+  ],
+  "what": {
+    "eyebrow": "What I do",
+    "title": "What I bring to the table.",
+    "columns": [
+      {
+        "title": "Customer Success",
+        "items": [
+          {
+            "title": "Onboarding & Adoption",
+            "body": "Getting new accounts to first value fast, with a plan mapped before kickoff, not after they stall."
+          },
+          {
+            "title": "Retention & Renewals",
+            "body": "Spotting risk early and making the case for renewal long before the contract date."
+          },
+          {
+            "title": "Account Health & Business Reviews",
+            "body": "Health checks and QBRs that show clients the value they're getting, in their language."
+          },
+          {
+            "title": "Expansion & Growth",
+            "body": "Finding the next right thing for each account, upsell and cross-sell that actually fits their goals."
+          }
+        ]
+      },
+      {
+        "title": "Account Management & Operations",
+        "items": [
+          {
+            "title": "End-to-End Account Ownership",
+            "body": "The single point of contact from kickoff to renewal, nothing falls through the cracks."
+          },
+          {
+            "title": "Stakeholder Communication",
+            "body": "Complex status translated into what clients and leaders need to make decisions. No surprises."
+          },
+          {
+            "title": "Cross-Functional Coordination",
+            "body": "Rallying internal teams around the client so the customer never feels the seams."
+          },
+          {
+            "title": "Data & Performance Reporting",
+            "body": "Tableau dashboards and KPI tracking. Right questions before the report is pulled."
+          }
+        ]
+      }
+    ]
+  },
+  "experience": {
+    "eyebrow": "Experience",
+    "title": "Where I've done this work.",
+    "items": [
+      {
+        "date": "2023 – Present",
+        "role": "Senior Client Services Manager",
+        "company": "Triadex Services",
+        "bullets": [
+          "Owned a $15M+ book of business end to end, from kickoff to renewal, across 15+ concurrent national brand accounts",
+          "Served as the primary point of contact and trusted advisor for a portfolio of national brand clients, managing relationships, expectations, and deliverables simultaneously",
+          "Drove retention and expansion by spotting account risk early and surfacing growth opportunities the data was pointing to but no one had acted on yet",
+          "Ran regular business reviews, translating account performance into clear, decision-ready insights for client stakeholders and senior leadership",
+          "Evolved into a strategic advisor role over time, shaping account strategy and contributing to higher-level planning decisions"
+        ]
+      },
+      {
+        "date": "2019 – 2023",
+        "role": "Client Services Manager",
+        "company": "Triadex Services",
+        "bullets": [
+          "Managed day-to-day relationships for national brand accounts, coordinating everything from intake to delivery across digital, email, and direct mail",
+          "Built the client-facing processes and systems from the ground up, starting with Excel-based tracking and evolving into Smartsheet, creating the SOPs and workflows the team still runs on today",
+          "Owned quality control and vendor relationships, making sure every deliverable met client expectations, accurately and on brand"
+        ]
+      },
+      {
+        "date": "2017 – 2019",
+        "role": "Marketing Coordinator / Operations Assistant",
+        "company": "Perian Management · 60+ franchise locations",
+        "bullets": [
+          "Acted as the central point of coordination between the corporate team and 60+ franchise locations, supporting their day-to-day needs and acting as their in-house partner",
+          "Built and executed local campaigns across digital, social, direct mail, and B2B channels, working alongside store managers and leadership teams",
+          "Analyzed performance and presented insights to leadership to support planning and decision-making",
+          "Coordinated community events, brand activations, and vendor relationships to drive traffic and local awareness"
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "eyebrow": "Selected projects",
+    "title": "Work I'm proud of.",
+    "cards": [
+      {
+        "tag": "Retention & Relationship",
+        "title": "A 10-year account was at risk. Four months later, we had them back.",
+        "situation": "A restaurant client generating around $2M annually parted ways with their agency, which had been our primary contact. After a few follow-ups without a response, it became clear we needed to find another way in.",
+        "action": "I tracked down the new agency and spent 3 months rebuilding trust through repeated conversations about our history and data expertise. When another vendor failed, I coordinated internally to step in and resolve it within a month.",
+        "result": "We got them back, for the crisis and for regular ongoing business. Both the client and new agency reached out personally to express their gratitude.",
+        "metric": "$2M",
+        "metricLabel": "Annual revenue retained, relationship fully restored"
+      },
+      {
+        "tag": "Expansion & Growth",
+        "title": "Four years into acquisition success, I asked: what about the customers we already have?",
+        "situation": "A home services client had focused entirely on new customer acquisition for about 3 years. We had consistently hit and exceeded their goals, but I kept seeing untapped potential in the customers they already had.",
+        "action": "I introduced targeting known customers to upsell services and reactivate inactive ones. The trust built through consistently strong results gave me the credibility to get them to test it, even though they were hesitant at first.",
+        "result": "The new customer groups outperformed the existing acquisition groups by approximately 3x, successfully reactivating lapsed customers and improving retention across the board. It opened up a full lifecycle dimension to the account that hadn't existed before.",
+        "metric": "~3x",
+        "metricLabel": "Expansion performance vs. acquisition groups"
+      },
+      {
+        "tag": "Process & Enablement",
+        "title": "Built an account management system from the ground up",
+        "situation": "When I joined, there was no system in place to track accounts. Work was tracked inconsistently and leadership had no visibility into account priorities or progress.",
+        "action": "I built a tracking system in Excel and launched weekly team meetings to create structure. As the book of business grew, I migrated us to Smartsheet and eventually Asana, driving adoption at each stage.",
+        "result": "Leadership gained visibility into account status they didn't have before. The team had clearer priorities each day and a consistent way to take on and track new work across the portfolio.",
+        "metric": "3x",
+        "metricLabel": "Systems evolved, Excel to Smartsheet to Asana, improving visibility at each stage"
+      }
+    ]
+  },
+  "brands": {
+    "label": "Industries & Accounts I've Supported",
+    "industries": [
+      "Restaurants",
+      "Beauty",
+      "Wellness",
+      "Dental",
+      "Orthodontics",
+      "Retail",
+      "Home Services",
+      "Automotive"
+    ],
+    "list": [
+      "Perkins Restaurant & Bakery",
+      "European Wax Center",
+      "Round Table Pizza",
+      "Yogurtland",
+      "Subway",
+      "Goodwill",
+      "Ideal Image",
+      "Cabinets To Go",
+      "Smile Doctors",
+      "Phantom Fireworks",
+      "SESAC Music Licensing",
+      "Paul Martin's American Grill",
+      "Colton's Steakhouse",
+      "ABC Home & Commercial",
+      "Robeks",
+      "The Melt"
+    ]
+  },
+  "tools": {
+    "eyebrow": "Tools & systems",
+    "title": "The tools behind the work.",
+    "groups": [
+      {
+        "label": "CRM & data",
+        "items": ["HubSpot", "Tableau", "Excel (advanced)", "Google Sheets"]
+      },
+      {
+        "label": "Account & project ops",
+        "items": ["Smartsheet", "Asana", "JIRA", "Confluence"]
+      },
+      {
+        "label": "Client communication",
+        "items": ["Microsoft Teams", "SharePoint", "Google Workspace", "Zoom"]
+      },
+      {
+        "label": "Presentations & content",
+        "items": ["Canva", "Adobe Suite", "Microsoft Office", "PowerPoint"]
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Get in touch",
+    "title": "Let's work together.",
+    "body": "I'm looking for customer success and account management roles where I can own client relationships end to end and bring both strategic thinking and operational discipline to a team that values retention, growth, and doing right by the customer. If that sounds like a fit, I'd love to connect.",
+    "links": [
+      { "label": "Email me", "href": "mailto:christina.sookhoo@yahoo.com" },
+      { "label": "LinkedIn", "href": "https://www.linkedin.com/in/christina-sookhoo/", "external": true }
+    ]
+  },
+  "footer": {
+    "copyright": "© 2026 Christina Sookhoo",
+    "location": "Los Angeles, CA"
+  }
+}

@@ -1,0 +1,51 @@
+name: Deploy site
+
+# Builds content/content.json + src/ into dist/ and publishes it to GitHub Pages.
+# Every push to main redeploys automatically; you can also run it by hand from
+# Actions → "Deploy site" → Run workflow.
+#
+# The custom domain comes from site.domain in content/content.json — the build
+# writes dist/CNAME. Confirm it once under Settings → Pages → Custom domain.
+#
+# ONE-TIME: Settings → Pages → "Build and deployment" → Source: "GitHub Actions".
+# Until that's set, the build job passes but the deploy job has nowhere to
+# publish (that's expected on the very first run).
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Build
+        run: node scripts/build.js
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
